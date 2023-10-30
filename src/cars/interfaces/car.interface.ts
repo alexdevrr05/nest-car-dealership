@@ -1,6 +1,5 @@
-
-export default interface Car {
-    id: string;
-    brand: string
-    model: string;
+export interface Car {
+  id: string;
+  model: string;
+  brand: string;
 }
