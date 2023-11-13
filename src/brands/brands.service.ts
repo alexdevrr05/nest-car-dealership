@@ -51,6 +51,8 @@ export class BrandsService {
       }
       return brand;
     });
+
+    return brandDB;
   }
 
   remove(id: string) {
