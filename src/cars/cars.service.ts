@@ -7,16 +7,16 @@ import { CreateCarDto, UpdateCarDto } from './dto/';
 @Injectable()
 export class CarsService {
   private cars: Car[] = [
-    { id: uuid(), brand: 'KIA', model: 'Sorento' },
-    { id: uuid(), brand: 'Toyota', model: 'Camry' },
-    { id: uuid(), brand: 'Ford', model: 'Mustang' },
-    { id: uuid(), brand: 'Honda', model: 'Civic' },
-    { id: uuid(), brand: 'Chevrolet', model: 'Silverado' },
-    { id: uuid(), brand: 'Volkswagen', model: 'Jetta' },
-    { id: uuid(), brand: 'BMW', model: 'X5' },
-    { id: uuid(), brand: 'Mercedes-Benz', model: 'C-Class' },
-    { id: uuid(), brand: 'Audi', model: 'A4' },
-    { id: uuid(), brand: 'Nissan', model: 'Altima' },
+    // { id: uuid(), brand: 'KIA', model: 'Sorento' },
+    // { id: uuid(), brand: 'Toyota', model: 'Camry' },
+    // { id: uuid(), brand: 'Ford', model: 'Mustang' },
+    // { id: uuid(), brand: 'Honda', model: 'Civic' },
+    // { id: uuid(), brand: 'Chevrolet', model: 'Silverado' },
+    // { id: uuid(), brand: 'Volkswagen', model: 'Jetta' },
+    // { id: uuid(), brand: 'BMW', model: 'X5' },
+    // { id: uuid(), brand: 'Mercedes-Benz', model: 'C-Class' },
+    // { id: uuid(), brand: 'Audi', model: 'A4' },
+    // { id: uuid(), brand: 'Nissan', model: 'Altima' },
   ];
 
   findAll() {
